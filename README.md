@@ -8,7 +8,7 @@ Reggaeton is the right tool to play music using PHP at your next party! It provi
 
 
 ## Example
-Place a file called `example.mp3` into your music databse folder. 
+Place a file called `example.mp3` into your music database folder. 
 ```php
 // Autoload or require the client
 $client = new Client();
