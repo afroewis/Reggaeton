@@ -13,7 +13,7 @@ Place a file called `example.mp3` into your music database folder.
 // Autoload or require the client
 $client = new Client();
 $client->update(); // Update the client's music database
-$client->add("example.mp3"); // Add the file to the plylist
+$client->add("example.mp3"); // Add the file to the playlist
 $client->play(1); // Play the first song in the database
 sleep(5);
 $client->stop();
