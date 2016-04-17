@@ -1,0 +1,15 @@
+{
+    "name": "afroewis/reggaeton",
+    "description": "A PHP mpd (music player daemon) client for your next Reggaeton party",
+    "authors": [
+        {
+            "name": "Andreas Fröwis",
+            "email": "andreas.froewis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Afroewis\\Reggaeton\\": "src/Afroewis/Reggaeton"
+        }
+    }
+}
