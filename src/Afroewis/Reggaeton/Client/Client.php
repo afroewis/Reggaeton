@@ -55,9 +55,9 @@ class Client
     /**
      * Play music.
      */
-    public function play()
+    public function play($songNumber)
     {
-        socket_write($this->socket, "play\n");
+        socket_write($this->socket, "play $songNumber\n");
     }
 
     /**
@@ -183,7 +183,7 @@ class Client
      */
     public function add($file)
     {
-        socket_write($this->socket, "findadd any $file\n");
+        socket_write($this->socket, "findadd file $file \n");
     }
 
     /**
@@ -191,7 +191,7 @@ class Client
      */
     public function update()
     {
-        socket_write($this->socket, "update /\n");
+        socket_write($this->socket, "update\n");
     }
 
     public function volumeUp()
